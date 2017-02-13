@@ -160,25 +160,59 @@ else {
 }
 
 
-$('.df-littleimg a').click(function(evt) {   
+$('.js-click1 a').click(function(evt) {   
   evt.preventDefault();    
       var imgPath = $(this).attr('href'); 
         
-      var oldImage = $('.df-gal-img img');         
+      var oldImage = $('.dfimg1 img');         
       
     var newImage = $('<img src="' + imgPath +'">');
       
          newImage.hide();     
-         $('.df-gal-img').prepend(newImage);     
+         $('.dfimg1').prepend(newImage);     
          newImage.fadeIn(300);    
       
         oldImage.fadeOut(200,function(){
              $(this).remove();
         });    
 });   
-$('.df-littleimg a:first').click();
+$('.js-click1 a:first').click();
 
+$('.js-click2 a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.dfimg2 img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.dfimg2').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.js-click2 a:first').click();
 
+$('.js-click3 a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.dfimg3 img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.dfimg3').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.js-click3 a:first').click();
 
 });
 
