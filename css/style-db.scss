@@ -13,7 +13,7 @@
 }
 
 .section_padding-db_view{
-background-color: #e8e8e8;
+	background-color: #e8e8e8;
 }
 
 .text-with-traengle_view{
@@ -52,6 +52,30 @@ background-color: #e8e8e8;
 }
 .h2-view-padding{
 	padding-bottom:20px;
+
+}
+
+.db-section-garant{
+	background: url('../img/db-fon-garant.jpg') no-repeat center center;
+	text-align: center;
+}
+
+.h2-garant{
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #010103;
+	font-family: "RobotoBold";
+}
+
+.db-garant-p{
+	font-family: "RobotoRegular";
+	color: #010103;
+	font-size: 14px;
+	text-transform: uppercase;
+	span{
+
+		font-family: "RobotoBold";
+	}
 }
 
 @media only screen and (min-width : 320px) {
