@@ -51,8 +51,83 @@
 		font-family: "RobotoBold";
 	}
 }
+
+// Желтый стронг
 strong{
 	color:yellow;
+}
+
+// Таймер
+.dd-timer-all-wrap{
+	width: 268px;
+	text-align: center;
+	.dd-timer{
+		.dd-timer-title{
+			font-family: "RobotoBold";
+			color: white;
+			font-weight: 700;
+			line-height: 15px;
+			text-transform: uppercase;
+		}
+		.dd-times{
+			position:relative;
+			.dd-div{
+				background-color: white;
+				border-radius: 5px;
+				float: left;
+				margin-left: 14px;
+				height: 55px;
+				width: 66px;
+				position:relative;
+				margin-top: 9px;
+				span{
+					color:black;
+					font-size: 42px;
+					font-weight: 500;
+					line-height: 15px;
+					text-shadow: 0 1px 0 black;
+					font-family: "RobotoRegular";
+					letter-spacing: 0px;
+					padding-left: 0px;
+					line-height: 55px;
+				}
+			}
+			.dd-str{
+				position:absolute;
+				top:24px;
+				z-index: 999;
+				// outline: 2px solid blue;
+			}
+
+			.dd-tochki{
+				float: left;
+				margin-left: 14px;
+				margin-top: 23px;
+			}
+			.no-margin{
+				margin-left: 0;
+			}
+			.dd-time-txt{
+				width: 51px;
+				float: left;
+				padding-left:9px;
+				span{
+					font-size: 14px;
+					font-weight: 400;
+					text-transform: uppercase;
+					line-height: 15px;
+					color:#fff;
+					font-family: "RobotoRegular";
+				}
+			}
+			.dd-time-txt2{
+				padding-left:55px;
+			}
+			.dd-time-txt3{
+				padding-left:94px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 320px) {
