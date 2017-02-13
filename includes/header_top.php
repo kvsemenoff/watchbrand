@@ -87,10 +87,10 @@
 				</div>
 			</div><!-- Timer -->
 			<div class="dd-form-wrap">
-				<form class="common-form dd-m0auto" action="#">
+				<form class="common-form form1 dd-m0auto" action="#">
 					<input type="text" name="uname" value="" placeholder="Ваше имя">	
 					<input type="text" class="phone" name="phone" value="" placeholder="Ваш телефон">		
-					<input type="submit" value="Заказать сейчас" placeholder="">		
+					<input type="submit" name="submit" value="Заказать сейчас" placeholder="">		
 				</form>	
 			</div><!-- Form -->
 			<div class="dd-big-box">
