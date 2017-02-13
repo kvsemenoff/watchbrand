@@ -2,6 +2,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="hurry__wrap__container">
+				<div class="hurry-img">
+					<img src="img/fiveclocks.png" alt="">
+				</div>
 				<div class="dd-hurry-main-txt txt-center my-float-left">
 					<span>Успей купить набор</span>
 					<span>Пять часов по цене одних! <strong>скидка 50%</strong></span>
