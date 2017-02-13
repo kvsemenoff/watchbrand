@@ -188,7 +188,28 @@
 .hurry-img{
 	display: none;
 }
-
+.dd-spasibo{
+	border:2px solid black;
+	padding: 25px 15px;
+	border-radius:15px;
+	max-width:600px;
+	margin:250px auto;
+	text-align:center;
+	span{
+		text-transform: uppercase;
+		display: block;
+	}
+	span:nth-child(1){
+		font-size: 30px;
+		font-family: "RobotoBold";
+		color:black;
+	}
+	span:nth-child(2){
+		font-size: 25px;
+		font-family: "RobotoRegular";
+		color:black;
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -245,8 +266,6 @@
 	// hurry
 	.dd-hurry-main-txt{
 		width: 388px;
-		
-
 	}
 	.my-float-left{
 		float:left;
@@ -274,7 +293,6 @@
 			left:-9px;
 		}
 	}
-
 }
 
 @media only screen and (min-width : 1248px) {
