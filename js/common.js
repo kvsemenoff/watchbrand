@@ -158,6 +158,28 @@ else {
         });
     }
 }
+
+
+$('.df-littleimg a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.df-gal-img img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.df-gal-img').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.df-littleimg a:first').click();
+
+
+
 });
 
 
