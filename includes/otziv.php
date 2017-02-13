@@ -1,7 +1,7 @@
 <section class="section">
 	<div class="container">
 		<div class="row">
-			Футер
+			Отзыв
 		</div>
 	</div>
 </section>
