@@ -1,6 +1,29 @@
 
 
 $(document).ready(function(){
+  var owl = $(".slider-db");
+
+owl.owlCarousel({
+
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,    
+        navText:['<span class="db-left"></span>','<span class="db-right"></span>'],
+        responsive:{
+          0:{
+            items:1
+        },       
+        1000:{
+            items:1
+        },
+        1248:{
+            items:1
+        }
+    }
+
+});
 
     $('.az-select').each(function(){
         var select = $(this);    
@@ -135,6 +158,62 @@ else {
         });
     }
 }
+
+
+$('.js-click1 a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.dfimg1 img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.dfimg1').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.js-click1 a:first').click();
+
+$('.js-click2 a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.dfimg2 img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.dfimg2').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.js-click2 a:first').click();
+
+$('.js-click3 a').click(function(evt) {   
+  evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+        
+      var oldImage = $('.dfimg3 img');         
+      
+    var newImage = $('<img src="' + imgPath +'">');
+      
+         newImage.hide();     
+         $('.dfimg3').prepend(newImage);     
+         newImage.fadeIn(300);    
+      
+        oldImage.fadeOut(200,function(){
+             $(this).remove();
+        });    
+});   
+$('.js-click3 a:first').click();
+
 });
 
 
