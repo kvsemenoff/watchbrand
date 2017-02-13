@@ -1,7 +1,7 @@
 <section class="section">
 	<div class="container">
 		<div class="row">
-			Футер
+			Оплата
 		</div>
 	</div>
 </section>

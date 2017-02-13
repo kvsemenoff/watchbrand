@@ -1,23 +1,40 @@
 @import "reset.css";
 @import "fonts.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "style5.css";
-@import "style6.css";
-@import "style7.css";
-@import "style8.css";
-@import "style9.css";
-@import "style10.css";
+@import "style-db.css";
+@import "style-dc.css";
+@import "style-dd.css";
+@import "style-de.css";
+@import "style-df.css";
+@import "style-dg.css";
+@import "style-dh.css";
+@import "style-di.css";
+@import "style-dj.css";
 
 .clear{
-    clear: both;
+	clear: both;
 }
 .center{
 	text-align: center;
 }
+.section__padding{
+	padding: 25px 0px;
+}
 
-
+// Форма с двумя инпутами и кнопкой
+.common-form{
+	input[type="text"]{
+		width: 210px;
+		height: 42px;
+		background-color: white;
+		border-radius: 5px;
+		outline: none;
+		border:none;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: black;
+		text-align: center;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -38,7 +55,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
