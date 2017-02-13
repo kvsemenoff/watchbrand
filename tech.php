@@ -3,10 +3,10 @@
 	
 
 	<!-- Форма с кнопкой -->
-	<form class="common-form" action="#">
+	<form class="common-form form1" method="post" action="#">
 		<input type="text" name="uname" value="" placeholder="Ваше имя">	
 		<input type="text" class="phone" name="phone" value="" placeholder="Ваш телефон">		
-		<input type="submit" value="Заказать сейчас" placeholder="">		
+		<input type="submit" name="submit" value="Заказать сейчас" placeholder="">		
 	</form>		
 	<br><br>
 

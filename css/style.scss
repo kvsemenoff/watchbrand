@@ -49,6 +49,11 @@
 		border:none;
 		outline: none;
 		font-family: "RobotoBold";
+		transition:0.7s;
+	}
+	input[type="submit"]:hover{
+		background:#CEEF2E;
+		transition:0.7s;
 	}
 }
 

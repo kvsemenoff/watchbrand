@@ -2,6 +2,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="hurry__wrap__container">
+				<div class="hurry-img">
+					<img src="img/fiveclocks.png" alt="">
+				</div>
 				<div class="dd-hurry-main-txt txt-center my-float-left">
 					<span>Успей купить набор</span>
 					<span>Пять часов по цене одних! <strong>скидка 50%</strong></span>
@@ -58,10 +61,10 @@
 						</div>
 					</div><!-- Timer -->
 					<div class="dd-form-wrap">
-						<form class="common-form dd-m0auto" action="#">
+						<form class="common-form form1 dd-m0auto" action="#">
 							<input type="text" name="uname" value="" placeholder="Ваше имя">	
 							<input type="text" class="phone" name="phone" value="" placeholder="Ваш телефон">		
-							<input type="submit" value="Заказать сейчас" placeholder="">		
+							<input type="submit" name="submit" value="Заказать сейчас" placeholder="">		
 						</form>	
 					</div><!-- Form -->
 				</div>

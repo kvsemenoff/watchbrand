@@ -172,7 +172,7 @@
 	font-family: "RobotoBold";
 }
 .dd-new-price{
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 	span{
 		text-transform: uppercase;
 		font-size: 30px;
@@ -183,6 +183,31 @@
 			font-family: "RobotoRegular";
 			text-transform: uppercase;
 		}
+	}
+}
+.hurry-img{
+	display: none;
+}
+.dd-spasibo{
+	border:2px solid black;
+	padding: 25px 15px;
+	border-radius:15px;
+	max-width:600px;
+	margin:250px auto;
+	text-align:center;
+	span{
+		text-transform: uppercase;
+		display: block;
+	}
+	span:nth-child(1){
+		font-size: 30px;
+		font-family: "RobotoBold";
+		color:black;
+	}
+	span:nth-child(2){
+		font-size: 25px;
+		font-family: "RobotoRegular";
+		color:black;
 	}
 }
 @media only screen and (min-width : 320px) {
@@ -237,6 +262,8 @@
 		background: url(../img/s.png) no-repeat top 22px center;
 		height: 294px;
 	}
+
+	// hurry
 	.dd-hurry-main-txt{
 		width: 388px;
 	}
@@ -251,6 +278,20 @@
 	}
 	.dd-pr{
 		margin-bottom: 10px;
+	}
+	.hurry__wrap__container{
+		background: url(../img/b.png) no-repeat right center;
+		height: 442px;
+		padding-right: 82px;
+		padding-top: 24px;
+		padding-left: 58px;
+		position:relative;
+		.hurry-img{
+			display: block;
+			position:absolute;
+			bottom:-30px;
+			left:-9px;
+		}
 	}
 }
 
