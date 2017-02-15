@@ -1,8 +1,8 @@
-<section class="section">
+<section class="section how">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Как заказать набор?</h2>
+				<h2 class="zakaz">Как заказать набор?</h2>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-3">
