@@ -39,7 +39,7 @@
 				<span>Спасибо за заявку!</span>
 				<span>Наш менеджер свяжется с вами в ближайшее время!</span>
 			</div>
-			<a href="" class="db-spasibo">Перейти на главную</a>
+			<a href="/" class="db-spasibo">Перейти на главную</a>
 		</div>
 	</div>
 
