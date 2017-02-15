@@ -13,6 +13,7 @@
 
 /* Шапка
 ==============================*/
+
 .dd-header-container{
 	max-width:976px;
 	width: 100%;
@@ -30,6 +31,7 @@
 	font-size:28px;
 	color: #ffcc3c;
 	text-align:center;
+	text-transform: uppercase;
 }
 .dd-header-slogan{
 	font-family: "Robotobold";
@@ -246,6 +248,15 @@
 	.dd-price{
 		text-align: unset;
 	}
+	.dd-pad{
+		padding-top: 3px;
+	}
+	.dd-pad2{
+		padding-top: 5px;
+	}
+	.dd-box-img1{
+		margin-bottom: 19px;
+	}
 }
 
 
@@ -300,7 +311,7 @@
 		display:block;
 		position:absolute;
 		bottom:-60px;
-		left:-137px;
+		left:-100px;
 	}
 }
 

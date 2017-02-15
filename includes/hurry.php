@@ -25,9 +25,9 @@
 					<div class="dd-timer-all-wrap dd-m0auto">
 						<div class="dd-timer">
 							<div class="dd-times">
-								<div class="dd-str">
+							<!-- 	<div class="dd-str">
 									<img src="img/str.png" alt="">
-								</div>
+								</div> -->
 								<div class="dd-div no-margin">
 									<span class="dd-hours"></span>
 
