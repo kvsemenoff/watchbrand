@@ -15,7 +15,7 @@
 
 				<div class="box-wrap">
 					<div class="dd-header-box ml-none">
-						<div class="dd-box-img">
+						<div class="dd-box-img dd-box-img1 dd-pad">
 							<img src="img/header1.png" alt="">
 						</div>
 						<span>
@@ -32,7 +32,7 @@
 						</span>	
 					</div>
 					<div class="dd-header-box">
-						<div class="dd-box-img">
+						<div class="dd-box-img dd-pad2">
 							<img src="img/header3.png" alt="">
 						</div>
 						<span>
