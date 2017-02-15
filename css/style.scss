@@ -55,6 +55,8 @@
 		background:#CEEF2E;
 		transition:0.7s;
 	}
+	input[type="text"]::-webkit-input-placeholder { color: black; }    
+    input[type="text"]::-moz-placeholder { color: black; }    
 }
 
 // Желтый стронг
